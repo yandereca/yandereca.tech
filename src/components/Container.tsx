@@ -20,7 +20,7 @@ export const Container: React.VFC<ContainerProps> = (props) => {
         .container {
           display: flex;
           align-items: center;
-          flex-direction: column;
+          flex-flow: column;
         }
       `}</style>
     </>
