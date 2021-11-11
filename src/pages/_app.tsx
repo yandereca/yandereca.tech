@@ -30,6 +30,10 @@ function MyApp({ Component, pageProps }: AppProps): React.ReactElement {
 
           color: #202020;
         }
+
+        * {
+          box-sizing: border-box;
+        }
       `}</style>
     </>
   )
