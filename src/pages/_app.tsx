@@ -34,6 +34,12 @@ function MyApp({ Component, pageProps }: AppProps): React.ReactElement {
         * {
           box-sizing: border-box;
         }
+
+        .page-link {
+          color: #707070;
+          text-decoration: none;
+          padding: 0 1rem;
+        }
       `}</style>
     </>
   )
