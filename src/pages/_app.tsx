@@ -15,6 +15,7 @@ function MyApp({ Component, pageProps }: AppProps): React.ReactElement {
           href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&display=swap"
           rel="stylesheet"
         />
+        <link rel="shortcut icon" href="favicon.bmp" type="image/bitmap" />
       </Head>
 
       <Component {...pageProps} />
