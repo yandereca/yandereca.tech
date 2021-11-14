@@ -49,8 +49,8 @@ export const Content: React.VFC<ContentProps> = (props) => {
       <style jsx>{`
         .content {
           display: flex;
-          justify-content: ${props.justify ?? 'left'};
-          align-items: ${props.align ?? 'top'};
+          ${props.justify ? `justify-content: ${props.justify};` : ''}
+          ${props.align ? `align-items: ${props.align};` : ''}
           flex-flow: column;
 
           ${!props.fullWidth && 'max-width: 1200px;'}
